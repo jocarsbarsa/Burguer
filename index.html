@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO-->
+    <meta charset="UTF-8" />
+    <!--DEIXAR TAMANHO FLEXÍVEL PARA QUALQUER DISPOSITIVO-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burguer's</title>
+    <!-- ICONES -->
+    <link rel="stylesheet" href="style..css" />
+
+    <!--SWIPER-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FONTs-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="icon" href="./assets/icon_burguer.png">
+  <body>
+    <header id="header">
+      <nav class="container">
+       <!--<img src=".png" alt="Callegari´s" />--> 
+        <a class="logo" href="#">Burguer's<span> Lanches</span></a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+           <!--<li><a class="title" href="#about">Sobre</a></li>--> 
+            <!--<li><a class="title" href="#services">Serviços</a></li>-->
+            <!--<li><a class="title" href="#testimonials">Depoimentos</a></li>-->
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Home -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img id="lanche"
+              src="./assets/lanche_app.jpg"
+              alt="Figura de um lanche"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Peça já o seu!</h2>
+            <p>É rápido e intuitivo.</p>
+            <p>Estamos felizes em tê-lo aqui.</p>
+            <a
+              class="button"
+              href="https://incandescent-roll-2095.glideapp.io/"
+              >Fazer pedido
+            </a>
+            <img id="icon_delivery" src="./assets/fast-delivery.png" alt="Rapaz fazendo entrega">
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+            
+
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5517&text= Oi! Gostaria de agendar um horario."
+              class="button" id="button_whats"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 01010101</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 345</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
